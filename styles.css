@@ -1,0 +1,85 @@
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 1.5em;
+}
+.hero-section .btn-primary {
+  background-color: #3498db;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+.hero-section .btn-primary:hover {
+  background-color: #217dbb;
+}
+#servicios .col-md-4 {
+  padding: 20px;
+}
+#servicios .col-md-4 .service-box {
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#servicios .col-md-4 .service-box h4 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #2ecc71;
+}
+#servicios .col-md-4 .service-box p {
+  color: #7795b4;
+}
+#tecnologias .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+#tecnologias .card:hover {
+  transform: translateY(-5px);
+}
+#tecnologias .card .card-title {
+  font-size: 1.5rem;
+  color: #3498db;
+}
+#tecnologias .card .card-text {
+  font-size: 1rem;
+  color: #2ecc71;
+}
+.carru {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+.carru .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+.carru .carousel-control-prev-icon,
+.carru .carousel-control-next-icon {
+  background-color: #007bff;
+}
+.carru .carousel-control-prev-icon:hover,
+.carru .carousel-control-next-icon:hover {
+  background-color: #0062cc;
+}
+footer {
+  background-color: #2c3e50;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
